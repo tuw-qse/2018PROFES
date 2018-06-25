@@ -4,6 +4,9 @@
 
 ### Platform Variability Model
 
+The following image shows a detail of the FeatureModel for the Tool Integration Platform of the industry partner. For example, the model defines the abstract optional feature _Commit_. The feature names, which must be unique in the model, are derived from the component names for simplicity. The branch of the _Commit_ feature is optional as it can be omitted in the final version if, for example, the quality assurance activities are not needed at all in an engineering process. The two abstract features _AML-Commit_ and _File-Commit_ descend from the quality interface bundle and are thus children and concrete features of the _Commit_ feature.
+Constraints in the feature model, represent dependencies amongst interfaces and services. In the figure the constraints can be found above the legend of the model or within the model using the the graphical notation. For instance, if a process is selected that manipulates a model, a service that can check in models into the database is required.
+
 ![Platform Feature Model Detail](images/fm-checkin-profes.pdf "Platform Feature Model")
 
 ### Process Variability Model
