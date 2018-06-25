@@ -2,6 +2,10 @@
 
 ## Solution Approach
 
+### Platform Variability Model
+
+![Platform Feature Model Detail](images/fm-checkin-profes.pdf "Platform Feature Model")
+
 ### Process Variability Model
 
 The following image shows the UML Representation of the ``ServiceTask`` and its relation to the ``Operation``.
